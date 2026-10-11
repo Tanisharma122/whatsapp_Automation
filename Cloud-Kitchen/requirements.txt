@@ -1,0 +1,36 @@
+# ============================================================
+# requirements.txt — All Python dependencies.
+# Install with:  pip install -r requirements.txt
+# ============================================================
+
+# Core web framework
+fastapi==0.115.4
+uvicorn[standard]==0.32.0
+
+# Configuration management (reads from .env)
+pydantic-settings==2.6.0
+pydantic==2.9.2
+
+# HTTP client (for WhatsApp API calls)
+httpx==0.27.2
+
+# Google Sheets integration
+gspread==6.1.4
+google-auth==2.61.0
+google-auth-oauthlib==1.5.0
+
+# Google Gemini LLM
+google-generativeai==0.8.3
+
+# Retry logic
+tenacity==9.0.0
+
+# Excel file reading (for schema inspection from downloaded files)
+openpyxl==3.1.5
+
+# Structured logging
+python-json-logger==2.0.7
+
+# Testing
+pytest==8.3.3
+pytest-asyncio==0.24.0
