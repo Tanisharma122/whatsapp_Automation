@@ -46,3 +46,10 @@ Thumbs.db
 dist/
 build/
 *.egg-info/
+
+# ngrok binary (downloaded locally, not committed)
+scripts/ngrok.exe
+scripts/ngrok.zip
+
+# Cloudflare tunnel binary (downloaded locally, not committed)
+scripts/cloudflared.exe
